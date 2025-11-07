@@ -16,6 +16,53 @@ st.set_page_config(
     layout="wide",
     initial_sidebar_state="collapsed"
 )
+# -----------------------------------------------------------
+# 👤 Sidebar Profile (Tejas Gholap)
+# -----------------------------------------------------------
+with st.sidebar:
+    st.markdown(f"""
+    <div style="text-align: center;">
+        <img src="https://avatars.githubusercontent.com/u/216306511?v=4" width="120" style="border-radius: 50%; border: 2px solid #3b82f6;">
+        <h3 style="margin-bottom: 5px; margin-top: 10px;">Tejas Gholap</h3>
+        <p style="font-size: 14px; opacity: 0.7;">Machine Learning | AI Developer</p>
+    </div>
+    """, unsafe_allow_html=True)
+
+    st.write("")
+    st.markdown("### 🌐 Connect With Me")
+
+    st.markdown("""
+    <a href="https://github.com/tejasgholap45" target="_blank" style="text-decoration: none;">
+        <button style="
+            width:100%;
+            padding:10px;
+            border-radius:8px;
+            border:none;
+            background:#111827;
+            color:white;
+            font-weight:600;
+            cursor:pointer;">
+            GitHub Profile
+        </button>
+    </a>
+    """, unsafe_allow_html=True)
+
+    st.markdown("""
+    <a href="https://www.linkedin.com/in/tejas-gholap-bb3417300/" target="_blank" style="text-decoration: none;">
+        <button style="
+            width:100%;
+            margin-top:8px;
+            padding:10px;
+            border-radius:8px;
+            border:none;
+            background:#0A66C2;
+            color:white;
+            font-weight:600;
+            cursor:pointer;">
+            LinkedIn Profile
+        </button>
+    </a>
+    """, unsafe_allow_html=True)
 
 # -----------------------------------------------------------
 # ✨ Enhanced Background & Styling
@@ -540,4 +587,5 @@ st.markdown("""
 <div style='text-align: center; opacity: 0.6; padding: 20px; font-size: 0.9em;'>
     Made with ❤️ using Streamlit | Model: CNN EMNIST Classifier
 </div>
+
 """, unsafe_allow_html=True)
